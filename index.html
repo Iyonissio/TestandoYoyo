@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Pagina Bootstrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-gradient-light">
+        <div class="container">
+
+            <a class="navbar-brand h1 mb-0" href="#"><i class="fa fa-glass"></i>Ferias</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                
+                    <ul class="navbar-nav mr-auto">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Servicos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contactos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Depoimentos</a>
+                            </li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                               Social
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#"><i class="fa fa-facebook"></i>  Facebook</a>
+                                <a class="dropdown-item" href="#"><i class="fa fa-whatsapp"></i>  Whatsapp</a>
+                                <a class="dropdown-item" href="#"><i class="fa fa-instagram"></i> Instagram</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar...">
+                        <button class="btn btn-dark" type="submit">OK </button>
+
+                    </form>
+            </div> 
+        </div>  
+    </nav>
+    <div id="slidefotos" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#slidefotos" data-slide-to="0" class="active"></li>
+            <li data-target="#slidefotos" data-slide-to="1" ></li>
+            <li data-target="#slidefotos" data-slide-to="2" ></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Principal.jpg" class="img-fluid d-block">
+
+                <div class="carousel-caption d-none d-md-block text-dark">
+
+                    <h1> Um paraiso chamado MACANETA </h1>
+                    <p class="lead"> Uma das praias mais procuradas por quem não se quer afastar muito da Cidade </p>
+
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="img/Principal.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block text-dark">
+
+                    <h1> Um paraiso chamado MACANETA </h1>
+                    <p class="lead"> Uma das praias mais procuradas por quem não se quer afastar muito da Cidade </p>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Principal.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block text-dark">
+
+                    <h1> Um paraiso chamado MACANETA </h1>
+                    <p class="lead"> Uma das praias mais procuradas por quem não se quer afastar muito da Cidade </p>
+
+                </div>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#slidefotos" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#slidefotos" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Avancar</span>
+        </a>
+
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-12 text-center my-5">
+                <h1 class="display-3"><i class="fa fa-cogs" aria-hidden="true"></i>Praias de Moçambique</h1>
+                <p>Moçambique é uma nação do sul da África cujo longo litoral 
+                    no Oceano Índico é 
+                    permeado de praias conhecidas, como MACANETA,
+                     e de parques marinhos perto da costa.</p>
+            </div>
+
+        </div>
+        <div class="row" mb-5>
+            <div class="col-md-4">
+                <nav id="navbarVertical" class="navbar navbar-light bg-light">
+                    <nav class="nav nav-pills flex-column">
+                        
+                        <a class="nav-link " href="#item1">MACANETA</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item1-1">Turismo</a>
+                            <a class="nav-link ml-3" href="#item1-2">Ferias</a>
+
+                        </nav>
+                        
+                        <a class="nav-link " href="#item2">PONTADOURO</a>
+                        <a class="nav-link " href="#item3">BILENE</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item3-1">Fim do Ano</a>
+                            <a class="nav-link ml-3" href="#item3-2">Inicio do Ano</a>
+
+                        </nav>
+
+                    </nav>
+
+
+                </nav>
+
+            </div>
+            <div class="col-md-8">
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="Emerson">
+
+                    <h4 id="item1">MACANETA</h4>
+                    <p> Macaneta é a praia mais próxima de Maputo,
+                        fica a uns 40 kilômetros da cidade, o que
+                        não necessariamente significa que em poucos
+                        minutos você chegará lá, programe 
+                        aproximadamente 1 hora e meia.</p>
+
+                    <h5 id="item1-1"> Turismo </h5>
+                    <p>O turismo nacional está em crise e Marracuene 
+                        é um caso isolado. Com a construção da estrada circular, 
+                        aproximando Marracuene a Maputo, o distrito está a viver uma 
+                        euforia no concernente ao desenvolvimento e isso tem 
+                        tido um impacto positivo no turismo.</p>
+
+                    <h5 id="item1-2"> Ferias</h5>
+                    <p> Com a construção da estrada circular, 
+                        aproximando Marracuene a Maputo, o distrito está a viver uma 
+                        euforia no concernente ao desenvolvimento e isso tem 
+                        tido um impacto positivo no turismo.</p>
+                    
+                </div> 
+            </div>
+
+        </div>
+        <div class="row justify-content-sm-center">
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5">
+                    <img class="card-img-top" src="img/Card-Img.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">MACANETA</h4>
+                        <h6 class="subtitle mb-2 text-muted">Turismo em Mocambique</h6>
+                        <p class="card-text">Macaneta é a praia mais próxima de Maputo</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Barcelona</li>
+                        <li class="list-group-item">Real Madrid</li>
+                        <li class="list-group-item">Juventus</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Saber Mais</a>
+                        <a href="#" class="card-link">Hoteis Proximos</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Desfrute das Melhores Praias
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5">
+                    <img class="card-img-top" src="img/Card2.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">MACANETA</h4>
+                        <h6 class="subtitle mb-2 text-muted">Turismo em Mocambique</h6>
+                        <p class="card-text">Macaneta é a praia mais próxima de Maputo</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Barcelona</li>
+                        <li class="list-group-item">Real Madrid</li>
+                        <li class="list-group-item">Juventus</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Saber Mais</a>
+                        <a href="#" class="card-link">Hoteis Proximos</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Desfrute das Melhores Praias
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5">
+                    <img class="card-img-top" src="img/Card3.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">MACANETA</h4>
+                        <h6 class="subtitle mb-2 text-muted">Turismo em Mocambique</h6>
+                        <p class="card-text">Macaneta é a praia mais próxima de Maputo</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Barcelona</li>
+                        <li class="list-group-item">Real Madrid</li>
+                        <li class="list-group-item">Juventus</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Saber Mais</a>
+                        <a href="#" class="card-link">Hoteis Proximos</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Desfrute das Melhores Praias
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+        
+    </div>
+   
+
+    
+     <!-- Modal  -->
+     <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+         <div class="modal-dialog" role="document">
+             <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Atractivos</h5>
+                    <button type="button" class="close" data-dismiss="modal"></button>
+                    <span>&times;;</span>
+
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6" >
+
+                                <h5>Descricao </h5>
+                                
+                                <img class="card-img-top" src="img/Card3.jpg">
+                                <p> O Macaneta Resort tem um restaurante, um bar, um salão partilhado e 
+                                    um jardim na Praia de Macaneta. Disponibiliza comodidades para churrascos, 
+                                    acesso Wi-Fi gratuito e estacionamento privado gratuito.
+                                    Todos os quartos do resort incluem uma área de estar, 
+                                    uma televisão de ecrã plano com canais por satélite e uma
+                                     casa de banho privativa com produtos de higiene pessoal 
+                                     gratuitos e um bidé. Os quartos incluem um frigorífico.
+                                    Falamos o seu idioma! </p>
+                            </div>
+                            <div class="col-6">
+
+                                <h5>Descricao </h5>
+
+                                <img class="card-img-top" src="img/Card3.jpg">
+                                <p> O Macaneta Resort tem um restaurante, um bar, um salão partilhado e 
+                                    um jardim na Praia de Macaneta. Disponibiliza comodidades para churrascos, 
+                                    acesso Wi-Fi gratuito e estacionamento privado gratuito.
+                                    Todos os quartos do resort incluem uma área de estar, 
+                                    uma televisão de ecrã plano com canais por satélite e uma
+                                     casa de banho privativa com produtos de higiene pessoal 
+                                     gratuitos e um bidé. Os quartos incluem um frigorífico.
+                                    Falamos o seu idioma! </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                </div>
+
+             </div>
+         </div>
+     </div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 text-center">
+
+                    <h1 class="display-4"><i class="fa fa-video-camera text-pimary" aria-hidden="true"></i> Video </h1>
+                    <p class="lead"> Macaneta Resort tem um restaurante, um bar, um salão partilhado e 
+                        um jardim na Praia de Macaneta. Disponibiliza comodidades para churrascos, 
+                        acesso Wi-Fi gratuito e estacionamento privado gratuito.</p>
+
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills justify-content-center mb-3" id="pills-nav" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01">Texto1<a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Texto2<a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " id="nav-pills-03" data-toggle="pill" href="#nav-item-03">Texto3<a>
+                        </li>
+                        
+
+                    </ul>
+                    <div class="tab-content" id="nav-pills-content">
+                        <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+
+                            <div class="row">
+                                <div class="col-sm-6">
+
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qc6jNIqLNYU"></iframe>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>Mocambique tem um total de 11 províncias mas apenas 
+                                        8 tem praias apesar de apenas 7 estarem localizadas
+                                         no litoral do oceano indico. Contamos 8 porque a 
+                                          de niassa tem o lago Niassa, um lago super extenso 
+                                          com areias brancas, deslumbrantes e agua azulada.
+
+                                        Moçambique tem uma área costeira de 2500 kilometros.
+                                         A costa é coberta por areia branca, oferecendo aguas 
+                                         transparentes que a industria hoteleira explora dando os
+                                          seus visitantes uma experiência única..</p>
+                                
+                                </div>
+                              
+
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade " id="nav-item-02" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-6">
+
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ic1A3jMWWJ0"></iframe>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>Mocambique tem um total de 11 províncias mas apenas 
+                                        8 tem praias apesar de apenas 7 estarem localizadas
+                                         no litoral do oceano indico. Contamos 8 porque a 
+                                          de niassa tem o lago Niassa, um lago super extenso 
+                                          com areias brancas, deslumbrantes e agua azulada.
+
+                                        Moçambique tem uma área costeira de 2500 kilometros.
+                                         A costa é coberta por areia branca, oferecendo aguas 
+                                         transparentes que a industria hoteleira explora dando os
+                                          seus visitantes uma experiência única..</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade " id="nav-item-03" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-6">
+
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LFwTPzJErEk"></iframe>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>Mocambique tem um total de 11 províncias mas apenas 
+                                        8 tem praias apesar de apenas 7 estarem localizadas
+                                         no litoral do oceano indico. Contamos 8 porque a 
+                                          de niassa tem o lago Niassa, um lago super extenso 
+                                          com areias brancas, deslumbrantes e agua azulada.
+
+                                        Moçambique tem uma área costeira de 2500 kilometros.
+                                         A costa é coberta por areia branca, oferecendo aguas 
+                                         transparentes que a industria hoteleira explora dando os
+                                          seus visitantes uma experiência única..</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-12 justify-content-center my-5">
+
+                <h1 class="display-4"><i class="fa fa-list-alt"></i></i>Formulario</h1>
+
+            </div>
+
+        </div>
+        <div class="row justify-content-center mb-5">
+            <div class="col-sm-12 col-mb-12 col-lg-8">
+
+                <form>
+                    <div class="form-row">
+
+                        <div class="form-group col-sm-6">
+
+                            <label for="inputNome">Digite o seu Nome</label>
+                            <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+                        </div>
+
+                    
+                        <div class="form-group col-sm-6">
+
+                            <label for="inputSobrenome">Digite o seu Sobrenome</label>
+                            <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+
+                            <label for="inputEnd">Digite o seu Endereco</label>
+                            <input type="text" class="form-control" id="inputEnd" placeholder="Endereco completo">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+
+                            <label for="inputCidade">Digite sua Cidade</label>
+                            <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-4">
+
+                            <label for="inputProv" >Sua Provincia</label>
+                            <select id="inputProv" class="form-control">
+                                <option selected>Selecione</option>
+                                <option >Maputo</option>
+                                <option >Xai Xai</option>
+                                <option >Inhabane</option>
+
+                            </select>
+                        </div>
+                   
+
+                        <div class="form-group col-sm-2">
+                            <label for="inputCEP"> CEP</label>
+                            <input type="text" id="inputCEP" class="form-control">
+
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-row">
+
+                            <div class="form-group col-sm-12">
+                                <div class="form-check">
+
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox">Desejo Receber Novidades por email
+                                    </label>
+
+                                </div>
+
+
+                            </div>
+                            <div class="form-row" >
+                                <div class="col-sm-12">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+
+                                    <a tabindex="0" class="btn btn-secondary ml-2" role="button"
+                                     data-placement="right" data-trigger="focus" 
+                                     title="Preencher os Campos e clicar no botao Enviar"
+                                     data-content="Preencher os Campos e clicar no botao Enviar"  >Ajuda</a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script>
+
+        $(function () {
+
+            $('[data-toggle="popover"]').popover
+
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>
